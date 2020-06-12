@@ -3,11 +3,11 @@ import styled from "styled-components";
 
 interface Props {
   children: React.ReactNode;
-  onClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
   className?: string;
+  onClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
 }
 
-const Button: React.FC<Props> = ({ children, onClick, className }) => {
+const Button: React.FC<Props> = ({ children, className, onClick }) => {
   return (
     <button className={className} onClick={onClick}>
       {children}
