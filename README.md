@@ -1,16 +1,23 @@
-# React TypeScript Boilerplate
+# React Storybook Boilerplate
 
-A boilerplate for React application development with TypeScript. It was modified from create-react-app.
+A boilerplate for React application development with Storybook. It was modified from create-react-app.
 
 ## Commands
 
 ```bash
-# Runs the app in the development mode
+# Run the app in the development mode
 yarn start
 
-# Launches the test runner in the interactive watch mode
+# Launch the test runner in the interactive watch mode
 yarn test
 
-# Builds the app for production
+# Build the app for production
 yarn build
+
+# Run Storybook
+yarn storybook
 ```
+
+## Project Maintainer
+
+- Tanawit Pattanaveerangkoon <<tanawit.pat@gmail.com>>
